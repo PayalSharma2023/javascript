@@ -47,7 +47,7 @@ else if (discriminant==0) {
     console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
 }
 else{
-    let relPart = (-b/(2*a)).toFixed(2)
+    let realPart = (-b/(2*a)).toFixed(2)
     let imagPart = (Math.sqrt(-discriminant)/(2*a)).toFixed(2)
     console.log(`The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart}-${imagPart}i`);
 } //the Math.sqrt() method is used to find the square root of a number. You can see that toFixed(2) is also used in the program. This rounds up the decimal number to two decimal values.
