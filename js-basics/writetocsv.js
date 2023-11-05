@@ -8,6 +8,7 @@ const dataArrays = [
     [2,'Jacob', 'thoronto', "@jaco"],
     [3, 'Larry', 'the bird', '@twitter']
 ];
+
 const csvFromArrayOfArrays = convertArrayToCSV(dataArrays, {
     header,
     seperator: ','
