@@ -1,0 +1,33 @@
+{
+  "name": "33_javaconcepts",
+  "version": "1.0.0",
+  "description": "file system example",
+  "main": "filesystem",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "journamlDEV",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.2",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6",
+    "js": "^0.1.0",
+    "needle": "^3.2.0",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "javascript"
+  },
+  "keywords": [
+    "js"
+  ]
+}
