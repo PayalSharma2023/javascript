@@ -13,6 +13,8 @@ const csvFromArrayOfArrays = convertArrayToCSV(dataArrays, {
     header,
     seperator: ','
 });
+//to write in an exsisting csv file 
+//or creating a new csv file
 fs.writeFile('output.csv', csvFromArrayOfArrays, err=>{
     if (err) console.log(err);
     console.log('csv file saved successfully')
