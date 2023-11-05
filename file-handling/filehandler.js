@@ -1,12 +1,3 @@
-// let stock = {
-//     Fruits: ["strawberry", "apple","Mango"],
-//     liquid: ["water","ice"],
-//     holder: ["cone", "cup", "stick"],
-//     toppings: ["chocolate", "peanuts"]
-// }
-// let is_shop_open = true;
-// setTimeout
-
 const {writeFile, readFile} = require("fs")//This require() call imports Node JS “fs” module into cache and creates an object of type Node FS module. Once it’s done, we can perform any IO Operation using node fs object.
 const {promisify} = require("util")
 
