@@ -1,12 +1,12 @@
 const js = require("js")
-const {convertArrayToCsv} = require("convert-array-to-csv");
+const {convertArrayToCSV} = require("convert-array-to-csv");
 const header = ['number', 'first','last','handle']
 const dataArrays = [
     [1, 'Mark', 'otto','@mdo'],
     [2,'Jacob', 'thoronto', "@jaco"],
     [3, 'Larry', 'the bird', '@twitter']
 ];
-const csvFromArrayOfArrays = convertArrayToCsv(dataArrays, {
+const csvFromArrayOfArrays = convertArrayToCSV(dataArrays, {
     header,
     seperator: ','
 });
